@@ -1,0 +1,26 @@
+---
+title: "Module 1 assignment"
+format:
+  html:
+    embed-resources: true
+editor: visual
+---
+
+## Git configuration
+
+1.  Replace the placeholder **Your Name** with your GitHub username
+
+2.  Replace **Your Email** with your email address
+
+3.  Keep the quotes!
+
+4.  Save the file by clicking on the **Save** icon in the Source pane or by pressing `Ctrl + S` (Windows/Linux) or `Cmd + S` (Mac).
+
+5.  Render the document by clicking the **Render** button in the Source pane.
+
+These will be the details that git will use to identify you when you make changes to your work.
+
+```{r}
+library(usethis)
+use_git_config(user.name = "Your Name", user.email = "Your Email")
+```
